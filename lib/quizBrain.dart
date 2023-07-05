@@ -24,7 +24,7 @@ class QuizBrain {
     if (_qusetionNumber < _questionBrain.length - 1) _qusetionNumber++; //2 <2
   }
 
-  bool? isFinished() {
+  bool isFinished() {
     if (_qusetionNumber == _questionBrain.length - 1) {
       return true;
     } else {
